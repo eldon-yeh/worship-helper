@@ -1,3 +1,3 @@
 # worship-helper
 
-Helper program for worshp powerpoints.
+Helper program for worship powerpoints.
