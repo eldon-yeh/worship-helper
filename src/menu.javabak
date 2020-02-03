@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class menu {
+	public static void main(String[] args){
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
+
+		// initializing vars
+		int counter = 1;
+		int maxit; // number of iterations for song reading
+		String current_song;
+		ArrayList<String> songlist = new ArrayList();
+		
+		
+		// number of iterations
+		System.out.println("Enter number of songs");
+		maxit = scanner.nextInt();
+		
+		//
+		
+		while (counter < maxit + 1){
+			System.out.println("enter song " + counter);
+			current_song = scanner.next();
+			songlist.add(current_song);
+			counter = counter + 1;
+		}
+		
+		System.out.println(songlist);
+	}
+}
