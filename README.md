@@ -9,8 +9,8 @@ worship-helper reads in text files of song lyrics and
 creates a html which is usable with reveal.js.
 
 # requirements
-- [reveal.js][https://github.com/hakimel/reveal.js/]
-- [java][https://www.java.com/en/download/]
+- [reveal.js](https://github.com/hakimel/reveal.js/)
+- [java](https://www.java.com/en/download/)
 
 # installation
 
