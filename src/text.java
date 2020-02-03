@@ -1,4 +1,4 @@
-// text parsing into html
+// basic text parsing into html
 
 public class text {
 	public static String par(String str){
