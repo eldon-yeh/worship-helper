@@ -34,9 +34,10 @@ names are case-sensitive.
 Songs lyrics are saved in text files, some have been provided
 already in the songs folder and you can easily create your own.
 
-The first line in your text file should be the title of the song.
-Leave one blank line between paragraphs where you want a new slide
-to start, do not use more than one blank line in a row.
+- __The first line in your text file should be the title of the song.__
+- Leave __one__ blank line between paragraphs where you want a new slide
+to start
+  - __do not__ use more than one blank line in a row.
 
 # CUSTOMISATION
 The presentation can be customized by editing tail.html.
