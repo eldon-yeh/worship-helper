@@ -26,9 +26,9 @@ public class file {
 	}
 	
 	public static Scanner read(String fname){
-		File file = new File(fname);
 		Scanner s = null;
 		try{
+			File file = new File(fname);
 			s = new Scanner(file);
 		}
 		catch(Exception e){

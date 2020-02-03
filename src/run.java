@@ -15,12 +15,13 @@ public class run {
 		String currentsong = null;
 	
 		while (counter < iterations + 1) {
-			System.out.println("enter a song name");
+			System.out.println("enter filename for song " + counter + " (leave out .txt)");
 			currentsong = s.next();
 			p.addsong(currentsong);
 			counter = counter + 1;
 		}
 		s.close();
 		p.write();
+		System.out.println("output.html created");
 	}
 }
