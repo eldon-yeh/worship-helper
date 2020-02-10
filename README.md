@@ -10,7 +10,9 @@ creates a html which is usable with reveal.js.
 
 # REQUIREMENTS
 - [reveal.js](https://github.com/hakimel/reveal.js/)
-- [java](https://www.java.com/en/download/)
+- [jdk 13](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+  - be sure to add jdk 13 to your path
+  - will not work with older versions of java
 
 # INSTALLATION
 Download the latest [release](https://github.com/eldon-yeh/worship-helper/releases/).
