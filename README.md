@@ -22,7 +22,7 @@ Extract the files into your reveal.js installation folder.
 
 # USAGE
 - For windows users
-  - run worship-helper.bat
+  - run worship-helper.exe
 - For linux/mac
   - download the source and run worship-helper.pyw through python
 - Select and add desired songs, then click create
@@ -44,4 +44,4 @@ The presentation can be customized by editing tail.html.
 
 # TODO
 - web scraping for lyrics.
-- gui
+- ~~gui~~ done
