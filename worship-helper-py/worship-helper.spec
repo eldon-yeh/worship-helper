@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['worship-helper.py'],
+a = Analysis(['worship-helper.pyw'],
              pathex=['C:\\Users\\eldon\\OneDrive\\Documents\\MEGAsync\\code\\worship-helper\\worship-helper-py'],
              binaries=[],
              datas=[],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True )
+          console=False )

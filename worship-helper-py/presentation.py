@@ -6,7 +6,7 @@ class presentation():
     def __init__(self):
         self.head = file_utils.read_file("resources/head.html")
         self.tail = file_utils.read_file("resources/tail.html")
-        self.body = "<section>\n"
+        self.body = ""
 
     def parse_file(self, fname):
         """
@@ -15,6 +15,7 @@ class presentation():
         """
         file = open(fname, "r")
         counter = 0
+        self.body += "<section>\n"
         for line in file:
             line = line.strip()
             if line == "":
@@ -25,6 +26,7 @@ class presentation():
                 else:
                     self.body += parser_utils.p(line) # regular text
             counter += 1
+        self.body += "</section>"
         file.close()
 
     def clear(self):

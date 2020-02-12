@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6eeb56b0-f417-4a55-a73f-64b3beee984c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>gui.py</StartupFile>
+    <StartupFile>worship-helper.pyw</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,7 @@
     <Compile Include="file_utils.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="gui.py">
+    <Compile Include="worship-helper.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.py">
@@ -36,8 +36,10 @@
     <Compile Include="presentation.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="worship-helper.pyw" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="output.html" />
     <Content Include="test.txt">
       <SubType>Code</SubType>
     </Content>
