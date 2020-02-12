@@ -4,8 +4,8 @@ import parser_utils
 class presentation():
     """"""
     def __init__(self):
-        self.head = file_utils.read_file("head.html")
-        self.tail = file_utils.read_file("tail.html")
+        self.head = file_utils.read_file("resources/head.html")
+        self.tail = file_utils.read_file("resources/tail.html")
         self.body = "<section>\n"
 
     def parse_file(self, fname):
