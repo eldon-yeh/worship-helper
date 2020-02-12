@@ -2,6 +2,8 @@
 
 Helper program for creating worship presentations for lyrics.
 
+![](worship-helper.png)
+
 # HOW IT WORKS
 Uses reveal.js as the platform to display our presentations.
 
@@ -10,9 +12,9 @@ creates a html which is usable with reveal.js.
 
 # REQUIREMENTS
 - [reveal.js](https://github.com/hakimel/reveal.js/)
-- [jdk 13](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
-  - be sure to add jdk 13 to your path
-  - will not work with older versions of java
+- Python - MAC and LINUX only
+
+
 
 # INSTALLATION
 Download the latest [release](https://github.com/eldon-yeh/worship-helper/releases/).
@@ -22,15 +24,11 @@ Extract the files into your reveal.js installation folder.
 - For windows users
   - run worship-helper.bat
 - For linux/mac
-  - run the jar file through command line with java -jar
-- Follow the prompts and enter your song names
-  - make sure you enter the song names EXACTLY as the text file name
-    - i.e. king_of_kings
+  - download the source and run worship-helper.pyw through python
+- Select and add desired songs, then click create
 - Then open the output.html in your browser (internet is not required)
 
 Put your text files with song lyrics into the songs folder.
-Be sure to use consistent naming conventions, as file input
-names are case-sensitive.
 
 ## SONG LYRIC FILE STRUCTURE
 Songs lyrics are saved in text files, some have been provided
